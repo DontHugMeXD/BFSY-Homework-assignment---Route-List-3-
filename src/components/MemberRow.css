@@ -1,0 +1,85 @@
+.member-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.member-row:last-child {
+  border-bottom: none;
+}
+
+.member-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.member-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
+
+.member-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.member-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.role-pill {
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.owner-pill {
+  background: #4caf50;
+  color: white;
+}
+
+.member-pill {
+  background: #2196f3;
+  color: white;
+}
+
+.me-pill {
+  background: #ff9800;
+  color: white;
+}
+
+.member-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.member-action-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
+
+.member-action-btn:hover {
+  opacity: 0.7;
+}
+

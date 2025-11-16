@@ -1,0 +1,14 @@
+.items-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  background: white;
+  border-top: 1px solid #e0e0e0;
+}
+
+.item-counter {
+  font-size: 14px;
+  color: #666;
+}
+

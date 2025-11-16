@@ -1,0 +1,10 @@
+.items-list {
+  background: white;
+}
+
+.empty-items {
+  padding: 32px;
+  text-align: center;
+  color: #999;
+}
+

@@ -1,0 +1,60 @@
+.archived-list-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+  position: relative;
+  opacity: 0.8;
+}
+
+.archived-list-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
+
+.card-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.card-action-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
+
+.card-action-btn:hover {
+  color: #333;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card-name {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+}
+

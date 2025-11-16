@@ -1,0 +1,30 @@
+.members-panel {
+  padding: 16px;
+}
+
+.panel-header {
+  margin-bottom: 16px;
+}
+
+.add-member-button {
+  padding: 12px 24px;
+  background: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.add-member-button svg {
+  color: white;
+}
+
+.add-member-button:hover {
+  opacity: 0.9;
+}
+

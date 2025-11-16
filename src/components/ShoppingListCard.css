@@ -1,0 +1,93 @@
+.shopping-list-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+  position: relative;
+}
+
+.shopping-list-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+
+.card-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.card-action-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
+
+.card-action-btn:hover {
+  color: #333;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
+
+.card-name {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.card-pills {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.role-pill {
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.owner-pill {
+  background: #4caf50;
+  color: white;
+}
+
+.member-pill {
+  background: #2196f3;
+  color: white;
+}
+
+.default-pill {
+  background: #ff9800;
+  color: white;
+}
+

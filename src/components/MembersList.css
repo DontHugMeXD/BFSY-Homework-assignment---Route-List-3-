@@ -1,0 +1,12 @@
+.members-list {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.empty-members {
+  padding: 32px;
+  text-align: center;
+  color: #999;
+}
+

@@ -1,0 +1,97 @@
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid #f0f0f0;
+  background: white;
+}
+
+.item-row.done {
+  opacity: 0.6;
+}
+
+.item-row.done .item-text {
+  text-decoration: line-through;
+}
+
+.item-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.item-checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.item-text {
+  font-size: 14px;
+}
+
+.item-updated {
+  font-size: 11px;
+  color: #999;
+}
+
+.item-edit-form {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex: 1;
+}
+
+.edit-input {
+  padding: 4px 8px;
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+  font-size: 14px;
+  flex: 1;
+}
+
+.edit-save-btn,
+.edit-cancel-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-save-btn {
+  color: #4caf50;
+}
+
+.edit-cancel-btn {
+  color: #f44336;
+}
+
+.item-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.item-action-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px;
+}
+
+.item-action-btn:hover {
+  opacity: 0.7;
+}
+
